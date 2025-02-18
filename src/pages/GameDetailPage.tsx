@@ -4,7 +4,7 @@ import { GridItem, Heading, SimpleGrid, Spinner } from "@chakra-ui/react";
 import ExpandableText from "../components/ExpandableText";
 import GameAttributes from "../components/GameAttributes";
 import GameTrailer from "../components/GameTrailer";
-import GameScreenshots from "../components/gameScreenshots";
+import GameScreenshots from "../components/GameScreenshots";
 function GameDetailPage() {
   const { slug } = useParams();
   const { data: game, isLoading, error } = useGame(slug!);
